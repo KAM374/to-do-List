@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__ToDoList__)
 @app.route('/')
 
-tasks=[]
+tasks = []
 print("To-Do List")
  
 while True:
