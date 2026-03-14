@@ -25,7 +25,7 @@ while running:
         print("Your To-Do List \n",  tasks)
 
     elif  action == "quit":
-        running = False
+        return print("Your To-Do List \n",  tasks)
         
 
 if __name__ == '__main__':
